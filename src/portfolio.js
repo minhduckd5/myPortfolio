@@ -260,7 +260,7 @@ const certifications = {
       subtitle: "- IBM / Coursera",
       logo_path: "ibm_logo.png",
       certificate_link:
-        "https://www.linkedin.com/in/dukeng21052906/details/certifications/",
+        "https://www.coursera.org/account/accomplishments/specialization/JDFHA9E0I4EY",
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
@@ -269,16 +269,16 @@ const certifications = {
       subtitle: "- AWS / Coursera",
       logo_path: "Amazon_Web_Services-Logo.wine.svg",
       certificate_link:
-        "https://www.linkedin.com/in/dukeng21052906/details/certifications/",
+        "https://coursera.org/share/a1bfb989d6fc63a960df3658e2003d8a",
       alt_name: "AWS",
       color_code: "#FF990099",
     },
     {
       title: "AI Agents 101: Building AI Agents with MCP",
-      subtitle: "- DeepLearning.AI",
-      logo_path: "deeplearning_ai_logo.png",
+      subtitle: "- AMD / Coursera",
+      logo_path: "AMD-logo.png",
       certificate_link:
-        "https://www.linkedin.com/in/dukeng21052906/details/certifications/",
+        "https://www.linkedin.com/in/dukeng21052906/overlay/Certifications/934507270/treasury/?profileId=ACoAACpD4C4B717awhmTLsaiHTug0HOG6hRNSpI",
       alt_name: "AI Agents",
       color_code: "#00000099",
     },
@@ -287,7 +287,7 @@ const certifications = {
       subtitle: "- IBM / Coursera",
       logo_path: "ibm_logo.png",
       certificate_link:
-        "https://www.linkedin.com/in/dukeng21052906/details/certifications/",
+        "https://www.coursera.org/account/accomplishments/verify/10T23SKR9YY7",
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
@@ -296,14 +296,14 @@ const certifications = {
       subtitle: "- IBM / Coursera",
       logo_path: "ibm_logo.png",
       certificate_link:
-        "https://www.linkedin.com/in/dukeng21052906/details/certifications/",
+        "https://www.coursera.org/account/accomplishments/verify/QB6DK154C5A5",
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
     {
       title: "IELTS Certification (Score Band 6.0)",
       subtitle: "- IDP / British Council",
-      logo_path: "coursera_logo.png",
+      logo_path: "BritishCouncil_Logo.png",
       certificate_link:
         "https://www.linkedin.com/in/dukeng21052906/details/certifications/",
       alt_name: "IELTS",
