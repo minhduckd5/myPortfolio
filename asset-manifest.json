@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.67eefbd7.chunk.css",
-    "main.js": "/myPortfolio/static/js/main.35900b98.chunk.js",
-    "main.js.map": "/myPortfolio/static/js/main.35900b98.chunk.js.map",
+    "main.css": "/myPortfolio/static/css/main.c74eee5a.chunk.css",
+    "main.js": "/myPortfolio/static/js/main.23db0404.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.23db0404.chunk.js.map",
     "runtime-main.js": "/myPortfolio/static/js/runtime-main.284dcfce.js",
     "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.284dcfce.js.map",
     "static/js/2.02c3d85d.chunk.js": "/myPortfolio/static/js/2.02c3d85d.chunk.js",
     "static/js/2.02c3d85d.chunk.js.map": "/myPortfolio/static/js/2.02c3d85d.chunk.js.map",
     "index.html": "/myPortfolio/index.html",
-    "precache-manifest.5d896fc8eced5d361342c9f7c9ce90a2.js": "/myPortfolio/precache-manifest.5d896fc8eced5d361342c9f7c9ce90a2.js",
+    "precache-manifest.de7305eefda9929d72f9df297230e0d0.js": "/myPortfolio/precache-manifest.de7305eefda9929d72f9df297230e0d0.js",
     "service-worker.js": "/myPortfolio/service-worker.js",
-    "static/css/main.67eefbd7.chunk.css.map": "/myPortfolio/static/css/main.67eefbd7.chunk.css.map",
+    "static/css/main.c74eee5a.chunk.css.map": "/myPortfolio/static/css/main.c74eee5a.chunk.css.map",
     "static/media/index.css": "/myPortfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Amazon_Web_Services-Logo.wine.svg": "/myPortfolio/static/media/Amazon_Web_Services-Logo.wine.59a82d54.svg",
     "static/media/Ashutosh_Hathidara_Resume_ML.pdf": "/myPortfolio/static/media/Ashutosh_Hathidara_Resume_ML.bad37978.pdf",
@@ -59,7 +59,7 @@
   "entrypoints": [
     "static/js/runtime-main.284dcfce.js",
     "static/js/2.02c3d85d.chunk.js",
-    "static/css/main.67eefbd7.chunk.css",
-    "static/js/main.35900b98.chunk.js"
+    "static/css/main.c74eee5a.chunk.css",
+    "static/js/main.23db0404.chunk.js"
   ]
 }
