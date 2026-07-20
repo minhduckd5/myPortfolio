@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/myPortfolio/static/css/main.c74eee5a.chunk.css",
-    "main.js": "/myPortfolio/static/js/main.673b6908.chunk.js",
-    "main.js.map": "/myPortfolio/static/js/main.673b6908.chunk.js.map",
+    "main.js": "/myPortfolio/static/js/main.23db0404.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.23db0404.chunk.js.map",
     "runtime-main.js": "/myPortfolio/static/js/runtime-main.284dcfce.js",
     "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.284dcfce.js.map",
-    "static/js/2.b83dc523.chunk.js": "/myPortfolio/static/js/2.b83dc523.chunk.js",
-    "static/js/2.b83dc523.chunk.js.map": "/myPortfolio/static/js/2.b83dc523.chunk.js.map",
+    "static/js/2.02c3d85d.chunk.js": "/myPortfolio/static/js/2.02c3d85d.chunk.js",
+    "static/js/2.02c3d85d.chunk.js.map": "/myPortfolio/static/js/2.02c3d85d.chunk.js.map",
     "index.html": "/myPortfolio/index.html",
-    "precache-manifest.a47e0781cb6661f8d8853891ce310ebe.js": "/myPortfolio/precache-manifest.a47e0781cb6661f8d8853891ce310ebe.js",
+    "precache-manifest.de7305eefda9929d72f9df297230e0d0.js": "/myPortfolio/precache-manifest.de7305eefda9929d72f9df297230e0d0.js",
     "service-worker.js": "/myPortfolio/service-worker.js",
     "static/css/main.c74eee5a.chunk.css.map": "/myPortfolio/static/css/main.c74eee5a.chunk.css.map",
     "static/media/index.css": "/myPortfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Amazon_Web_Services-Logo.wine.svg": "/myPortfolio/static/media/Amazon_Web_Services-Logo.wine.59a82d54.svg",
     "static/media/Ashutosh_Hathidara_Resume_ML.pdf": "/myPortfolio/static/media/Ashutosh_Hathidara_Resume_ML.bad37978.pdf",
+    "static/media/BritishCouncil_Logo.png": "/myPortfolio/static/media/BritishCouncil_Logo.2e7c2500.png",
     "static/media/Logo-HCMIU.svg": "/myPortfolio/static/media/Logo-HCMIU.4c2f6904.svg",
     "static/media/SCC_logo_NEW.png": "/myPortfolio/static/media/SCC_logo_NEW.946ed193.png",
     "static/media/address_image.svg": "/myPortfolio/static/media/address_image.16559172.svg",
@@ -57,8 +58,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.284dcfce.js",
-    "static/js/2.b83dc523.chunk.js",
+    "static/js/2.02c3d85d.chunk.js",
     "static/css/main.c74eee5a.chunk.css",
-    "static/js/main.673b6908.chunk.js"
+    "static/js/main.23db0404.chunk.js"
   ]
 }
