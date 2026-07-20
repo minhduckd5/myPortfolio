@@ -26,7 +26,11 @@ class Contact extends Component {
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
                 <img
-                  src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
+                  src={
+                    ContactData["profile_image_path"].startsWith("http")
+                      ? ContactData["profile_image_path"]
+                      : require(`../../assets/images/${ContactData["profile_image_path"]}`)
+                  }
                   alt=""
                 />
               </div>
@@ -45,11 +49,7 @@ class Contact extends Component {
                 </p>
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
-                  <Button
-                    text="See My Resume"
-                    href="/resume"
-                    theme={theme}
-                  />
+                  <Button text="See My Resume" href="/resume" theme={theme} />
                 </div>
               </div>
             </div>
