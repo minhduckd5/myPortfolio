@@ -1,11 +1,11 @@
 {
   "data": [
     {
-      "id": "R_kgDOJWL0-g",
-      "name": "mdp-diffusion",
-      "createdAt": "2023-04-13T04:18:19Z",
-      "url": "https://github.com/ashutosh1919/mdp-diffusion",
-      "description": "Text-guided image editing by manipulating diffusion path without any training.",
+      "id": "aio-chaos-tool",
+      "name": "AIO-Chaos-Tool",
+      "createdAt": "2025-01-01T00:00:00Z",
+      "url": "https://github.com/minhduckd5/AIO-Chaos-Tool",
+      "description": "ChaosGen — AI-Driven Chaos Engineering Framework (Thesis). Automates cluster discovery, Prometheus/Loki telemetry analysis, and context-aware fault injection.",
       "isFork": false,
       "languages": [
         {
@@ -13,106 +13,118 @@
           "iconifyClass": "logos-python"
         },
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
+          "name": "Docker",
+          "iconifyClass": "simple-icons:docker"
         },
         {
-          "name": "Jupyter Notebook",
-          "iconifyClass": "logos-jupyter"
+          "name": "Kubernetes",
+          "iconifyClass": "simple-icons:kubernetes"
         }
       ]
     },
     {
-      "id": "R_kgDOG_vYHA",
-      "name": "explainable-cnn",
-      "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/ashutosh1919/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
+      "id": "ai-shopping-system",
+      "name": "AI-Shopping-System",
+      "createdAt": "2024-06-01T00:00:00Z",
+      "url": "https://github.com/minhduckd5/AI-Shopping-System",
+      "description": "Scalable e-commerce backend platform built with FastAPI, PostgreSQL, Redis, MongoDB, SQLAlchemy, and Docker containerization.",
       "isFork": false,
       "languages": [
         {
           "name": "Python",
           "iconifyClass": "logos-python"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "masterPortfolio",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/ashutosh1919/masterPortfolio",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "PostgreSQL",
+          "iconifyClass": "simple-icons:postgresql"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "Dockerfile",
+          "name": "Docker",
           "iconifyClass": "simple-icons:docker"
         }
       ]
     },
     {
-      "id": "R_kgDOG0_8uQ",
-      "name": "react-awesome-shapes",
-      "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
+      "id": "net-centric-programming",
+      "name": "Net-Centric-Programming-Project",
+      "createdAt": "2024-03-01T00:00:00Z",
+      "url": "https://github.com/minhduckd5/Net-Centric-Programming-Project",
+      "description": "High-performance concurrent gRPC network server built in Go (Golang) leveraging goroutines, Protocol Buffers, and MySQL.",
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "Go",
+          "iconifyClass": "simple-icons:go"
+        },
+        {
+          "name": "MySQL",
+          "iconifyClass": "simple-icons:mysql"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "simple-icons:docker"
+        }
+      ]
+    },
+    {
+      "id": "container-fullstack",
+      "name": "container-fullstack",
+      "createdAt": "2026-02-01T00:00:00Z",
+      "url": "https://github.com/minhduckd5/container-fullstack",
+      "description": "Cluster Tycoon — Fullstack web application built with React (Vite), Tailwind CSS, Nginx reverse proxy, Flask API backend, and Docker Compose.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "TypeScript",
+          "iconifyClass": "logos-typescript-icon"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "simple-icons:docker"
+        }
+      ]
+    },
+    {
+      "id": "iu-forum",
+      "name": "IU-Forum",
+      "createdAt": "2025-09-01T00:00:00Z",
+      "url": "https://github.com/minhduckd5/IU-Forum",
+      "description": "Mobile-first React (TypeScript) SPA built to WCAG 2.1 accessibility standards with GSAP micro-animations and Vercel preview builds.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "TypeScript",
+          "iconifyClass": "logos-typescript-icon"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
         },
         {
           "name": "CSS",
           "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
         }
       ]
     },
     {
-      "id": "R_kgDOGcPKSQ",
-      "name": "neuro-symbolic-sudoku-solver",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-liquidswipe",
-      "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
-      "isFork": false,
+      "id": "myportfolio",
+      "name": "myPortfolio",
+      "createdAt": "2026-07-01T00:00:00Z",
+      "url": "https://github.com/minhduckd5/myPortfolio",
+      "description": "Personal developer portfolio website showcasing Cloud Infrastructure, DevOps projects, experience, and certifications.",
+      "isFork": true,
       "languages": [
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
         },
         {
           "name": "CSS",
