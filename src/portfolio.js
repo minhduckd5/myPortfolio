@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Duke's Portfolio",
   description:
-    "Junior Cloud / Infrastructure & DevOps Engineer specializing in Kubernetes orchestration, CI/CD pipelines, IaC (Terraform, Bicep, Ansible), and cloud-native architectures.",
+    "Cloud & Infrastructure Engineer specializing in Kubernetes orchestration, CI/CD pipelines, Infrastructure as Code (Terraform, Bicep, Ansible), and high-availability cloud systems.",
   og: {
     title: "Nguyen Huynh Minh Duc (Duke Ng) Portfolio",
     type: "website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "Duke Ng",
   nickname: "dukengh",
   subTitle:
-    "Junior Cloud / Infrastructure & DevOps Engineer with hands-on experience in virtualization, container orchestration, CI/CD pipelines, and infrastructure automation.",
+    "Junior Cloud & Infrastructure Engineer passionate about container orchestration, automated CI/CD pipelines, and resilient Infrastructure as Code across hybrid cloud environments.",
   resumeLink:
     "https://1drv.ms/b/c/516a74d13f56eef6/EcB6eScK0YZMnVUFRaNAv6EB7oPs6SCYS4g8mfI1gpxCRA?e=6Ev6pp",
   portfolio_repository: "https://github.com/minhduckd5/myPortfolio",
@@ -54,12 +54,12 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Cloud & Infrastructure Engineering",
+      title: "Cloud & Infrastructure Systems",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Provisioning & managing virtual machines across VMware vCenter / vSphere and cloud environments",
-        "⚡ Automating infrastructure deployments using IaC tools (Terraform, Bicep, Ansible, Vagrant)",
-        "⚡ Designing resilient private & multi-cloud architecture setups",
+        "⚡ Provisioning and managing Linux virtual workloads across VMware vSphere/vCenter environments and public cloud platforms",
+        "⚡ Automating cloud infrastructure lifecycles using IaC tooling (Terraform, Bicep, Ansible, Vagrant) to eliminate manual overhead",
+        "⚡ Designing resilient private and multi-cloud architectures built for high availability and performance",
       ],
       softwareSkills: [
         {
@@ -107,12 +107,12 @@ const skills = {
       ],
     },
     {
-      title: "Container & Kubernetes Orchestration",
+      title: "Container Orchestration & CI/CD Pipelines",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Containerizing applications using Docker & composing multi-container environments",
-        "⚡ Deploying & managing production-grade Kubernetes / K3s clusters (Deployments, Services, Ingress-NGINX)",
-        "⚡ Setting up automated CI/CD pipelines via Azure DevOps & GitLab CI/CD",
+        "⚡ Containerizing multi-tier application stacks with Docker and configuring isolated, repeatable environment topologies",
+        "⚡ Operating Kubernetes & K3s clusters with custom ingress routing (Ingress-NGINX), persistent storage, and health probes",
+        "⚡ Constructing automated CI/CD workflows in Azure DevOps & GitLab CI for continuous integration, testing, and delivery",
       ],
       softwareSkills: [
         {
@@ -163,9 +163,9 @@ const skills = {
       title: "Chaos Engineering & Observability",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Building AI-driven chaos engineering platforms (ChaosGen thesis project)",
-        "⚡ Wiring Prometheus & Loki telemetry metrics for automated fault injection & analysis",
-        "⚡ Configuring SRE observability stack (Prometheus, Grafana, Loki, Azure Monitor)",
+        "⚡ Architecting AI-driven chaos engineering platforms (ChaosGen) to systematically discover and mitigate system vulnerabilities",
+        "⚡ Integrating Prometheus & Loki telemetry data directly into LLM feedback loops for context-aware fault injection",
+        "⚡ Implementing full-stack SRE observability solutions using Prometheus, Grafana, Loki, and Azure Monitor",
       ],
       softwareSkills: [
         {
@@ -239,8 +239,8 @@ const degrees = {
       alt_name: "International University VNU-HCMC",
       duration: "2021 - 2025",
       descriptions: [
-        "⚡ Specialization in Cloud Computing, Software Engineering, Computer Networks, Database Systems, and Distributed Systems.",
-        "⚡ Developed ChaosGen (AI-Driven Chaos Engineering Framework) as undergraduate thesis project.",
+        "⚡ Rigorous coursework in Cloud Architecture, Distributed Systems, Computer Networks, Database Internals, and Software Engineering.",
+        "⚡ Architected ChaosGen (AI-Driven Chaos Engineering Framework) as an undergraduate thesis to automate fault injection in K3s clusters.",
       ],
       website_link: "https://hcmiu.edu.vn/",
     },
@@ -308,7 +308,7 @@ const experience = {
           duration: "Mar 2026 - Jun 2026",
           location: "Ho Chi Minh City, Vietnam",
           description:
-            "Completed an intensive program covering Linux admin, CI/CD (Azure DevOps), Docker, Azure cloud services, IaC (Bicep), Kubernetes, and SRE practices. Provisioned Azure resources (VMs, Storage, Resource Groups) using Bicep templates & Azure CLI. Containerized and deployed 3-tier application (React + Flask + PostgreSQL) to Kubernetes with Ingress rules. Built automated Bash scripts for log cleanup, cron jobs, and systemd services.",
+            "Completed an intensive DevOps engineering program focusing on Linux systems administration, Azure cloud management, and Site Reliability Engineering (SRE) practices. Designed modular Bicep templates to programmatically provision Azure VMs, storage accounts, and resource groups via Azure CLI. Containerized and deployed a 3-tier application stack (React, Flask, PostgreSQL) to Kubernetes with ingress controllers and persistent storage. Authored automated Bash scripts for scheduled log maintenance, cron jobs, and systemd service management.",
           color: "#0078D4",
         },
         {
@@ -319,7 +319,7 @@ const experience = {
           duration: "Jun 2025 - Sep 2025",
           location: "Ho Chi Minh City, Vietnam",
           description:
-            "Provisioned and managed 15+ VMs across VMware vCenter clusters, cutting environment setup time by ~50% through reusable Terraform and Ansible playbooks. Delivered proof-of-concept Kubernetes deployments on VMware virtualization. Authored comparative analysis of Oracle PCA vs. VergeIO informing private cloud roadmap.",
+            "Provisioned and managed 15+ virtual machines across VMware vCenter clusters, cutting environment setup overhead by roughly 50% using reusable Terraform modules and Ansible playbooks. Delivered proof-of-concept Kubernetes container deployments on top of VMware vSphere virtualization. Authored a comparative technical assessment of Oracle PCA versus VergeIO to help guide private cloud infrastructure planning.",
           color: "#4285F4",
         },
       ],
@@ -348,7 +348,7 @@ const publications = {
       name: "ChaosGen — AI-Driven Chaos Engineering Framework",
       createdAt: "2025-01-01T00:00:00Z",
       description:
-        "Undergraduate Thesis: CLI chaos engineering platform automating environment discovery, telemetry analysis, fault-injection scenario generation (Prometheus/Loki), and safe rollback driven by multi-provider LLM workflows (Ollama, OpenAI, Anthropic, Groq).",
+        "Undergraduate Thesis: An AI-assisted CLI chaos engineering framework that automates cluster topology discovery, analyzes Prometheus/Loki telemetry, and generates context-aware fault-injection scenarios (CPU stress, network partitions, pod evictions) with human-in-the-loop safety controls.",
       url: "https://github.com/minhduckd5",
     },
     {
@@ -356,7 +356,7 @@ const publications = {
       name: "AI Shopping System — Backend Microservices",
       createdAt: "2024-06-01T00:00:00Z",
       description:
-        "Scalable e-commerce backend platform built with FastAPI, PostgreSQL, Redis, MongoDB, and SQLAlchemy. Containerized with Docker and features JWT authentication.",
+        "Scalable e-commerce backend platform built with FastAPI, PostgreSQL, Redis, and MongoDB. Features containerized microservices architecture, JWT authentication, and Redis caching for low-latency product catalog queries.",
       url: "https://github.com/minhduckd5/AI-Shopping-System",
     },
     {
@@ -364,7 +364,7 @@ const publications = {
       name: "High-Performance Network Server",
       createdAt: "2024-03-01T00:00:00Z",
       description:
-        "Concurrent gRPC network server built in Go (Golang), Protocol Buffers, and MySQL with Docker deployment.",
+        "Concurrent gRPC network service built in Go (Golang) leveraging goroutines, Protocol Buffers, and MySQL with Docker containerization.",
       url: "https://github.com/minhduckd5/Net-Centric-Programming-Project",
     },
   ],
@@ -376,7 +376,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "animated_ashutosh.png",
     description:
-      "Feel free to reach out to me for Cloud Engineering, DevOps, Infrastructure Automation, or Backend opportunities!",
+      "I'm always eager to collaborate on Cloud Infrastructure, Kubernetes orchestration, DevOps automation, or Backend engineering. Feel free to reach out!",
   },
   blogSection: {
     title: "Blogs",
