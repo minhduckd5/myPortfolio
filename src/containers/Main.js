@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Route, Switch, HashRouter, Redirect } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
-// import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
-import Opensource from "../pages/opensource/Opensource";
+// import Splash from "../pages/splash/Splash";
+// import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
@@ -60,12 +60,19 @@ export default class Main extends Component {
             path="/opensource"
             render={(props) => <Redirect to="/projects" />}
           />
+          {/* Commented Out Original Opensource Route:
+          <Route path="/opensource" render={(props) => <Opensource {...props} theme={this.props.theme} />} />
+          */}
+
           <Route
             path="/contact"
             render={(props) => <Contact {...props} theme={this.props.theme} />}
           />
 
           <Route path="/splash" render={(props) => <Redirect to="/home" />} />
+          {/* Commented Out Original Splash Route:
+          <Route path="/splash" render={(props) => <Splash {...props} theme={this.props.theme} />} />
+          */}
 
           <Route
             path="/projects"
