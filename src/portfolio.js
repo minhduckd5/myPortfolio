@@ -49,6 +49,12 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-google",
     backgroundColor: "#D14836",
   },
+  {
+    name: "Facebook",
+    link: "https://www.facebook.com/dukeng.304/",
+    fontAwesomeIcon: "fa-facebook-f",
+    backgroundColor: "#1877F2",
+  },
 ];
 
 const skills = {
@@ -322,7 +328,7 @@ const experience = {
           title: "DevOps Engineer Intern",
           company: "SCC",
           company_url: "https://www.scc.com/",
-          logo_path: "microsoft_logo.png",
+          logo_path: "SCC_logo_NEW.png",
           duration: "Mar 2026 - Jun 2026",
           location: "Ho Chi Minh City, Vietnam",
           description:
@@ -333,7 +339,7 @@ const experience = {
           title: "Cloud Engineer Intern",
           company: "QTSC DigiTech Center",
           company_url: "https://qtsc.com.vn/",
-          logo_path: "gcp_logo.png",
+          logo_path: "qtscicon.png",
           duration: "Jun 2025 - Sep 2025",
           location: "Ho Chi Minh City, Vietnam",
           description:
