@@ -1,28 +1,6 @@
 {
   "data": [
     {
-      "id": "aio-chaos-tool",
-      "name": "AIO-Chaos-Tool",
-      "createdAt": "2025-01-01T00:00:00Z",
-      "url": "https://github.com/minhduckd5/AIO-Chaos-Tool",
-      "description": "ChaosGen — AI-Driven Chaos Engineering Framework (Thesis). Automates cluster discovery, Prometheus/Loki telemetry analysis, and context-aware fault injection.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "Docker",
-          "iconifyClass": "simple-icons:docker"
-        },
-        {
-          "name": "Kubernetes",
-          "iconifyClass": "simple-icons:kubernetes"
-        }
-      ]
-    },
-    {
       "id": "ai-shopping-system",
       "name": "AI-Shopping-System",
       "createdAt": "2024-06-01T00:00:00Z",
@@ -103,28 +81,6 @@
         {
           "name": "React",
           "iconifyClass": "logos-react"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        }
-      ]
-    },
-    {
-      "id": "myportfolio",
-      "name": "myPortfolio",
-      "createdAt": "2026-07-01T00:00:00Z",
-      "url": "https://github.com/minhduckd5/myPortfolio",
-      "description": "Personal developer portfolio website showcasing Cloud Infrastructure, DevOps projects, experience, and certifications.",
-      "isFork": true,
-      "languages": [
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
         },
         {
           "name": "CSS",
