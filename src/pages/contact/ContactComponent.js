@@ -15,6 +15,24 @@ const blogSection = contactPageData.blogSection;
 const addressSection = contactPageData.addressSection;
 const phoneSection = contactPageData.phoneSection;
 
+const getImageUrl = (path) => {
+  if (!path) return "";
+  if (path.includes("drive.google.com/file/d/")) {
+    const match = path.match(/\/file\/d\/([^\/]+)/);
+    if (match && match[1]) {
+      return `https://lh3.googleusercontent.com/d/${match[1]}`;
+    }
+  }
+  if (path.startsWith("http")) {
+    return path;
+  }
+  try {
+    return require(`../../assets/images/${path}`);
+  } catch (e) {
+    return path;
+  }
+};
+
 class Contact extends Component {
   render() {
     const theme = this.props.theme;
@@ -26,11 +44,7 @@ class Contact extends Component {
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
                 <img
-                  src={
-                    ContactData["profile_image_path"].startsWith("http")
-                      ? ContactData["profile_image_path"]
-                      : require(`../../assets/images/${ContactData["profile_image_path"]}`)
-                  }
+                  src={getImageUrl(ContactData["profile_image_path"])}
                   alt=""
                 />
               </div>
