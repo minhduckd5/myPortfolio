@@ -261,7 +261,7 @@ const certifications = {
     {
       title: "DevOps on AWS: Code, Build, and Test",
       subtitle: "- AWS / Coursera",
-      logo_path: "google_logo.png",
+      logo_path: "aws_logo.png",
       certificate_link:
         "https://www.linkedin.com/in/dukeng21052906/details/certifications/",
       alt_name: "AWS",
