@@ -383,8 +383,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path:
-      "https://1drv.ms/i/c/516a74d13f56eef6/IQCg6h1hYFIzQLXgn_HbiW8CAdwo2exBN3ndxP6ag15W3Tk?e=6ecZfF",
+    profile_image_path: "https://github.com/minhduckd5.png",
     description:
       "I'm always eager to collaborate on Cloud Infrastructure, Kubernetes orchestration, DevOps automation, or Backend engineering. Feel free to reach out!",
   },
