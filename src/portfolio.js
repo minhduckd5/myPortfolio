@@ -373,7 +373,7 @@ const publications = {
       name: "ChaosGen — AI-Driven Chaos Engineering Framework (Thesis)",
       createdAt: "2025-01-01T00:00:00Z",
       description:
-        "Undergraduate Thesis (International University VNU-HCMC): An AI-assisted CLI chaos engineering platform that automates cluster topology discovery, analyzes Prometheus/Loki telemetry, and generates context-aware fault-injection scenarios (CPU stress, network partitions, pod evictions) with human-in-the-loop safety controls.",
+        "Undergraduate Thesis (International University VNU-HCMC): An AI-assisted CLI chaos engineering platform that automates cluster discovery, Prometheus/Loki telemetry analysis, and context-aware fault injection with human-in-the-loop safety. Validated against an on-premise microservices testbed deployed on Proxmox VE & K3s nodes.",
       url: "https://github.com/minhduckd5/AIO-Chaos-Tool",
     },
   ],
