@@ -261,7 +261,7 @@ const certifications = {
     {
       title: "DevOps on AWS: Code, Build, and Test",
       subtitle: "- AWS / Coursera",
-      logo_path: "aws_logo.png",
+      logo_path: "Amazon_Web_Services-Logo.wine.svg",
       certificate_link:
         "https://www.linkedin.com/in/dukeng21052906/details/certifications/",
       alt_name: "AWS",
@@ -367,7 +367,7 @@ const publications = {
       createdAt: "2025-01-01T00:00:00Z",
       description:
         "Undergraduate Thesis: An AI-assisted CLI chaos engineering framework that automates cluster topology discovery, analyzes Prometheus/Loki telemetry, and generates context-aware fault-injection scenarios (CPU stress, network partitions, pod evictions) with human-in-the-loop safety controls.",
-      url: "https://github.com/minhduckd5",
+      url: "https://github.com/minhduckd5/AIO-Chaos-Tool",
     },
     {
       id: "ai-shopping-system",
@@ -384,6 +384,22 @@ const publications = {
       description:
         "Concurrent gRPC network service built in Go (Golang) leveraging goroutines, Protocol Buffers, and MySQL with Docker containerization.",
       url: "https://github.com/minhduckd5/Net-Centric-Programming-Project",
+    },
+    {
+      id: "cluster-tycoon",
+      name: "Cluster Tycoon — Containerized Fullstack Application",
+      createdAt: "2026-02-01T00:00:00Z",
+      description:
+        "Fullstack web application built with React (Vite), Tailwind CSS, Nginx reverse proxy, Flask API backend, PostgreSQL database, and Docker Compose deployment.",
+      url: "https://github.com/minhduckd5/container-fullstack",
+    },
+    {
+      id: "iu-forum",
+      name: "IU Forum — Accessible School Community Platform",
+      createdAt: "2025-09-01T00:00:00Z",
+      description:
+        "Mobile-first React (TypeScript) SPA built to WCAG 2.1 accessibility standards. Features GSAP animations, Context API state management, third-party media integrations, and automated Vercel preview pipelines.",
+      url: "https://github.com/minhduckd5/IU-Forum",
     },
   ],
 };
