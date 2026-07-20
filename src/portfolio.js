@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Junior Cloud & Infrastructure Engineer passionate about container orchestration, automated CI/CD pipelines, and resilient Infrastructure as Code across hybrid cloud environments.",
   resumeLink:
-    "https://1drv.ms/b/c/516a74d13f56eef6/EcB6eScK0YZMnVUFRaNAv6EB7oPs6SCYS4g8mfI1gpxCRA?e=6Ev6pp",
+    "https://1drv.ms/b/c/516a74d13f56eef6/IQCdrPl3soS3TYzpeYxHJdhuAXH8aZmo7W_J0_IVTIk51-M?e=sHM4jS",
   portfolio_repository: "https://github.com/minhduckd5/myPortfolio",
   githubProfile: "https://github.com/minhduckd5",
 };
@@ -383,7 +383,8 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "https://github.com/minhduckd5.png",
+    profile_image_path:
+      "https://drive.google.com/file/d/1fhA7bqTLxwEImQHAclrpM8ByTuGKghxs/view?usp=drive_link",
     description:
       "I'm always eager to collaborate on Cloud Infrastructure, Kubernetes orchestration, DevOps automation, or Backend engineering. Feel free to reach out!",
   },

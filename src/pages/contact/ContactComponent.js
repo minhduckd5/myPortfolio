@@ -72,28 +72,25 @@ class Contact extends Component {
             <div className="blog-heading-div">
               <div className="blog-heading-text-div">
                 <h1 className="blog-heading-text" style={{ color: theme.text }}>
-                  {blogSection["title"]}
+                  Template Credits
                 </h1>
                 <p
                   className="blog-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {blogSection["subtitle"]}
+                  This portfolio is built on the open-source masterPortfolio
+                  template originally created with ❤️ by Ashutosh Hathidara.
                 </p>
                 <div className="blogsite-btn-div">
                   <Button
-                    text="Visit My Blogsite"
+                    text="View Original Template"
                     newTab={true}
-                    href={blogSection.link}
+                    href="https://github.com/ashutosh1919/masterPortfolio"
                     theme={theme}
                   />
                 </div>
               </div>
               <div className="blog-heading-img-div">
-                {/* <img
-											src={require(`../../assets/images/${blogSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
                 <BlogsImg theme={theme} />
               </div>
             </div>

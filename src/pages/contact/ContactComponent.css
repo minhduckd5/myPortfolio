@@ -56,8 +56,13 @@
 }
 
 .contact-heading-img-div > * {
-  max-width: 100%;
+  max-width: 380px;
+  max-height: 380px;
+  width: 100%;
   height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .blog-heading-img-div > * {
