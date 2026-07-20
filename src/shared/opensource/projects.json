@@ -87,6 +87,42 @@
           "iconifyClass": "logos-css-3"
         }
       ]
+    },
+    {
+      "id": "food-recipe-chatbot",
+      "name": "Food-Recipe-Chatbot",
+      "createdAt": "2024-11-01T00:00:00Z",
+      "url": "https://github.com/minhduckd5/Food-Recipe-Chatbot",
+      "description": "Conversational AI application for culinary recommendations and recipe search using Natural Language Processing (NLP) and Python.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "NLP",
+          "iconifyClass": "simple-icons:probot"
+        }
+      ]
+    },
+    {
+      "id": "hcmiu-escigma",
+      "name": "HCMIU-Escigma",
+      "createdAt": "2024-05-01T00:00:00Z",
+      "url": "https://github.com/minhduckd5/HCMIU-Escigma",
+      "description": "Software engineering system developed for HCMIU, demonstrating modular design patterns and team collaboration.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Java",
+          "iconifyClass": "logos-java"
+        },
+        {
+          "name": "Software Engineering",
+          "iconifyClass": "simple-icons:git"
+        }
+      ]
     }
   ]
 }
