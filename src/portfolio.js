@@ -347,15 +347,16 @@ const experience = {
 
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
+  title: "Open Source Projects",
   description:
-    "Here are some featured engineering projects showcasing my work in Cloud, DevOps, Chaos Engineering, and Backend Architecture.",
+    "Featured software engineering projects showcasing my work across Cloud Infrastructure, SRE Automation, Microservices, and Fullstack Applications.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
-  title: "Publications & Thesis",
-  description: "Featured thesis and technical projects.",
+  title: "Thesis & Research",
+  description:
+    "Undergraduate thesis work and academic engineering projects in SRE & Chaos Engineering.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -363,43 +364,11 @@ const publications = {
   data: [
     {
       id: "chaosgen-framework",
-      name: "ChaosGen — AI-Driven Chaos Engineering Framework",
+      name: "ChaosGen — AI-Driven Chaos Engineering Framework (Thesis)",
       createdAt: "2025-01-01T00:00:00Z",
       description:
-        "Undergraduate Thesis: An AI-assisted CLI chaos engineering framework that automates cluster topology discovery, analyzes Prometheus/Loki telemetry, and generates context-aware fault-injection scenarios (CPU stress, network partitions, pod evictions) with human-in-the-loop safety controls.",
+        "Undergraduate Thesis (International University VNU-HCMC): An AI-assisted CLI chaos engineering platform that automates cluster topology discovery, analyzes Prometheus/Loki telemetry, and generates context-aware fault-injection scenarios (CPU stress, network partitions, pod evictions) with human-in-the-loop safety controls.",
       url: "https://github.com/minhduckd5/AIO-Chaos-Tool",
-    },
-    {
-      id: "ai-shopping-system",
-      name: "AI Shopping System — Backend Microservices",
-      createdAt: "2024-06-01T00:00:00Z",
-      description:
-        "Scalable e-commerce backend platform built with FastAPI, PostgreSQL, Redis, and MongoDB. Features containerized microservices architecture, JWT authentication, and Redis caching for low-latency product catalog queries.",
-      url: "https://github.com/minhduckd5/AI-Shopping-System",
-    },
-    {
-      id: "net-centric-programming",
-      name: "High-Performance Network Server",
-      createdAt: "2024-03-01T00:00:00Z",
-      description:
-        "Concurrent gRPC network service built in Go (Golang) leveraging goroutines, Protocol Buffers, and MySQL with Docker containerization.",
-      url: "https://github.com/minhduckd5/Net-Centric-Programming-Project",
-    },
-    {
-      id: "cluster-tycoon",
-      name: "Cluster Tycoon — Containerized Fullstack Application",
-      createdAt: "2026-02-01T00:00:00Z",
-      description:
-        "Fullstack web application built with React (Vite), Tailwind CSS, Nginx reverse proxy, Flask API backend, PostgreSQL database, and Docker Compose deployment.",
-      url: "https://github.com/minhduckd5/container-fullstack",
-    },
-    {
-      id: "iu-forum",
-      name: "IU Forum — Accessible School Community Platform",
-      createdAt: "2025-09-01T00:00:00Z",
-      description:
-        "Mobile-first React (TypeScript) SPA built to WCAG 2.1 accessibility standards. Features GSAP animations, Context API state management, third-party media integrations, and automated Vercel preview pipelines.",
-      url: "https://github.com/minhduckd5/IU-Forum",
     },
   ],
 };
