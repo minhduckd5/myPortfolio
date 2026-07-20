@@ -19,7 +19,7 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Duke Ng",
+  title: "Duc Nguyen Huynh Minh",
   logo_name: "Duke Ng",
   nickname: "dukengh",
   subTitle:
@@ -235,7 +235,7 @@ const degrees = {
     {
       title: "International University | VNU - HCMC",
       subtitle: "B.Eng. in Computer Engineering",
-      logo_path: "iu_logo.png",
+      logo_path: "Logo-HCMIU.svg",
       alt_name: "International University VNU-HCMC",
       duration: "2021 - 2025",
       descriptions: [
@@ -269,7 +269,7 @@ const certifications = {
     },
     {
       title: "AI Agents 101: Building AI Agents with MCP",
-      subtitle: "- Agentic AI Workflows",
+      subtitle: "- DeepLearning.AI",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
         "https://www.linkedin.com/in/dukeng21052906/details/certifications/",
@@ -277,8 +277,26 @@ const certifications = {
       color_code: "#00000099",
     },
     {
+      title: "Application Development using Microservices & Serverless",
+      subtitle: "- IBM / Coursera",
+      logo_path: "ibm_logo.png",
+      certificate_link:
+        "https://www.linkedin.com/in/dukeng21052906/details/certifications/",
+      alt_name: "IBM",
+      color_code: "#1F70C199",
+    },
+    {
+      title: "Developing Back-End Apps with Node.js & Express",
+      subtitle: "- IBM / Coursera",
+      logo_path: "ibm_logo.png",
+      certificate_link:
+        "https://www.linkedin.com/in/dukeng21052906/details/certifications/",
+      alt_name: "IBM",
+      color_code: "#1F70C199",
+    },
+    {
       title: "IELTS Certification (Score Band 6.0)",
-      subtitle: "- Professional English Communication",
+      subtitle: "- IDP / British Council",
       logo_path: "coursera_logo.png",
       certificate_link:
         "https://www.linkedin.com/in/dukeng21052906/details/certifications/",
